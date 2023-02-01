@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Open+Sans:wght@300;400;700&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Alegreya', serif;}
+.clear{clear: both;}
+.container-xl{max-width: 1440px;margin:0 auto; padding: 0 2%;}
+.container-gg{max-width: 1280px;margin:0 auto; padding: 0 2%;}
+.container-md{max-width: 960px;margin: 0 auto; padding: 0 2%;}
+.container-sm{max-width: 560px;margin: 0 auto; padding: 0 2%;}
+.col-12{width: 100%; display: inline; float: left;}
+.col-11{width: 91.6%; display: inline; float: left;}
+.col-10{width: 83.3%; display: inline; float: left;}
+.col-9{width: 75%; display: inline; float: left;}
+.col-8{width: 66.66%; display: inline; float: left;}
+.col-7{width: 58.3%; display: inline; float: left;}
+.col-6{width: 50%; display: inline; float: left;}
+.col-5{width: 41.6%; display: inline; float: left;}
+.col-4{width: 33.33%; display: inline; float: left;}
+.col-3{width: 25%; display: inline; float: left;}
+.col-2{width: 16.6%; display: inline; float: left;}
+.col-1{width: 8.33%; display: inline; float: left;}
+input[type=submit]{outline: 0;border: 0;cursor:pointer}
+.center{text-align: center;}
