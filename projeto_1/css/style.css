@@ -168,6 +168,7 @@ section.main .main-container .content-text h3 b{
 
 .sobre-content img{
     margin-top: 15px;
+    margin: 0 auto;
 }
 
 
@@ -178,9 +179,6 @@ section.main .main-container .content-text h3 b{
 /* FIM : SECTION MAIN */
 
 /* INICIO : SECTION CONHECIMENTOS */
-section.conhecimentos{
-    margin: 150px 0 150px 100px;
-}
 
 section.conhecimentos h1{
     font-size: 42px ;
@@ -188,6 +186,7 @@ section.conhecimentos h1{
     width: 300px;
     border-bottom: 1px solid #083516;
     margin-bottom: 25px;
+    margin-left: 2%;
 }
 
 section.conhecimentos .conhecimentos-container{
@@ -198,7 +197,7 @@ section.conhecimentos .conhecimentos-container{
 
 section.conhecimentos .wraper-box{
     display: flex;
-    width: 250px;
+    width: 300px;
     height: 250px;
     background-color: #D4F2D2;
     margin: 15px;
@@ -221,6 +220,9 @@ section.conhecimentos .wraper-box .box h3{
 
 /* FIM : SECTION CONHECIMENTOS */
 
+/* INICIO : SECTION ALBUM */
+
+/* FIM : SECTION ALBUM */
 
 
 
