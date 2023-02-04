@@ -221,6 +221,35 @@ section.conhecimentos .wraper-box .box h3{
 /* FIM : SECTION CONHECIMENTOS */
 
 /* INICIO : SECTION ALBUM */
+section.album{
+    margin: 150px 0;
+}
+
+.grid{
+    display: flex;
+}
+
+
+.mini-box{
+    width: 100%;
+    height: 400px;
+    background-color: #D4F2D2;
+    margin: 5px;
+}
+
+.medium-box{
+    width: 100%;
+    height: 400px;
+    background-color: #D4F2D2;
+    margin: 5px;
+}
+
+.big-box{
+    width: 100%;
+    height: 400px;
+    background-color: #D4F2D2;
+    margin: 5px;
+}
 
 /* FIM : SECTION ALBUM */
 
