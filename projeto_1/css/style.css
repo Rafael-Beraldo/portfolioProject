@@ -6,7 +6,7 @@ body{
 /* INICIO : HEADER */
 
 header{
-    z-index: 1;
+    z-index: 3;
     position: fixed;
     width: 100%;
     height: 75px;
@@ -222,20 +222,100 @@ section.conhecimentos .wraper-box .box h3{
 
 /* INICIO : SECTION ALBUM */
 section.album{
-    margin: 150px 0;
+    margin: 50px 0;
+}
+
+section.album h1{
+    font-size: 42px ;
+    color: #083516;
+    width: 140px;
+    border-bottom: 1px solid #083516;
+    margin-bottom: 25px;
+    margin-left: 2%;
 }
 
 .grid{
     display: flex;
 }
 
+/* Está parte feita em Sass o Less, ficaria mais organizada, mas optei em não utilizar */
 
-.mini-box{
+.mini-box,
+.big-box{
+    display: flex;
     width: 100%;
     height: 400px;
-    background-color: #D4F2D2;
     margin: 5px;
+    align-items: center;
+    justify-content: center;
 }
+
+.layer{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+.mini-box h2,
+.big-box h2{
+    z-index: 2;
+    position: absolute;
+    color: #fff;
+}
+
+.mini-box h2:after,
+.big-box h2:after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+.one{
+    background-image: url(../images/mini-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.two{
+    background-image: url(../images/mini-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.three{
+    background-image: url(../images/mini-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.four{
+    background-image: url(../images/medium-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.five{
+    background-image: url(../images/medium-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.six{
+    background-image: url(../images/big-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .medium-box{
     width: 100%;
@@ -250,6 +330,7 @@ section.album{
     background-color: #D4F2D2;
     margin: 5px;
 }
+/*  */
 
 /* FIM : SECTION ALBUM */
 
@@ -333,3 +414,15 @@ footer .mini-footer p{
     font-size: 17px;
 }
 /* FIM : FOOTER */
+
+/* INICIO : ANIMAÇÕES */
+@keyframes pisca{
+    0%,100%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+}
+/* FIM : ANIMAÇÕES */
