@@ -334,7 +334,27 @@ section.album h1{
 
 /* FIM : SECTION ALBUM */
 
+/* INICIO : SECTION SLIDER */
+section.slider{
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 150px;
+}
 
+.container-slider{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-slider{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    background-color: #D4F2D2;
+}
+/* FIM : SECTION SLIDER */
 
 
 /* INICIO : FOOTER */
