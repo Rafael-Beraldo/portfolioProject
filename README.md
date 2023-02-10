@@ -3,7 +3,7 @@ Aplicando Markdown
  **Projeto de Portfolio**, primeira página de fato postada no GitHub.
  Está é a primeira versão, que não apresenta entrada para outros projetos de fato, mas é a entrada da página de Apresentação Pessoal, onde falta ajustes com o responsivo.
  Entretanto já postei está versão no GitHub, para estar sempre praticando também o software de versionamento, e cada dia estar mais preparado para projetos maiores.
-
+ ~~Testando Markdown~~
 
  *Project Portfolio*
  Portfolio project, first page actually posted on GitHub.
